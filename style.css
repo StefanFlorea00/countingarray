@@ -1,0 +1,18 @@
+h1 {
+  text-align: center;
+  margin-top: 300px;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1:before {
+  content: "[";
+}
+
+h1::after {
+  content: "]";
+}
+
+body {
+  background-color: lightgray;
+}
