@@ -19,6 +19,7 @@ function doCountingArrayLoop(i) {
     if (numbers.length > arrayLength) {
       numbers.pop();
     }
+    document.querySelector("h1").textContent = numbers;
     console.log(numbers);
   }, 1000 * i);
 }
